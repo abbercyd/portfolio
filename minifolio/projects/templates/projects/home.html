@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% load bootstrap5 %}
+    {% bootstrap_css %}
+    {% bootstrap_javascript %}
+    {% load static %}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-light navbar-expand-lg py-3 fixed-top" style="background-color: rgba(255, 249, 249, 0.7);">
+    <div class="container">
+        <a href="" class="navbar-brand">
+            <img src="{% static "projects/Maina2.png" %}" alt="Bootstrap" width="30" height="24">
+            Ab Maina
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"><span class="navbar-toggler-icon">
+        
+            </span></button>
+        <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a href="" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item"></li>
+                    <a href="" class="nav-link">Blog</a>
+                </li>
+                <li class="nav-item"></li>
+                    <a href="" class="nav-link">Contact ME</a>
+                </li>
+                <li class="nav-item"></li>
+                    <a href="" class="btn btn-dark">Resume</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+   </nav>
+   <hr>
+   <section class="bg-muted text-dark p-5 text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1>Hi there! I am <span class = "display-1 fw-bold">Abdulbasid</span> </h1>
+                    <p class="lead">Welcome to My page for Projects interaction and Questions. I am a <span class="text-muted">BackEnd Developer</span>
+                     , DataBase Manager and Data scientist</p>                
+                     <button class="btn btn-dark btn-lg"> Download Resume</button>
+                     <div class="h1 py-3 ">
+                        <i class=" bi bi-twitter-x"></i>
+                        <i class=" bi bi-facebook"></i>
+                        <i class=" bi bi-github"></i>
+                        <i class=" bi bi-linkedin"></i>
+
+                     </div>
+                </div>
+                <img class="img-fluid w-25 d-none d-sm-block"  src="{% static "projects/hero.png" %}" alt="hero">
+            </div>
+        </div> 
+   </section>
+   <section class="bg-muted text-dark text-center text-sm-start"> 
+    <div class="container text-center">
+        <p class="h1 fw-bold">ABout ME</p>
+        <p class="text-dark">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis voluptatum porro facere, aut omnis fugiat dicta. Neque dolorum placeat omnis debitis eos aspernatur minus deserunt eveniet. Nisi reprehenderit eum quam?
+        </p>
+        <button class="btn btn-dark btn-lg">More</button>
+    </div>    
+</section>
+</body>
+</html>
